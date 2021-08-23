@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <title>Spotify</title>
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="sidebar">
+       <div class="sidebar-wraper">
+
+        <div class="sidebar__logo">
+            <img src="img/logo spotify.png">
+        </div><!--side__logo-->
+
+
+            <div class="sidebar__menu">
+                <a class="sidebar__menu__selecionado" href="#"><i class="fas fa-home"></i>Início</a>
+                <a href="#"><i class="fas fa-search"></i>buscar</a>
+                <a href="#"><i class="fas fa-database"></i>Biblioteca</a>
+            </div><!--sidebar__menu-->
+
+            <div class="sidebar__menu">
+                <p class="sidebar__menu__title">Playlists</p>
+
+                <div class="sidebar__menu__item">
+                    <div class="sidebar__menu__item__componente">
+                        +
+                    </div>
+                    <span>Criar Playlist</span>       
+                </div><!--sidebar__menu__item-->
+
+                <div class="sidebar__menu__item">
+                    <img src="img/musicas curtidas.png">
+                    <span>Músicas Curtidas</span>
+                </div><!--sidebar__menu__item-->
+            </div><!--sidebar__menu-->
+
+            <div class="sidebar__playlists">
+                <a href="">Playlist 1</a>
+                <a href="">Playlist 1</a>
+                <a href="">Playlist 1</a>
+                <a href="">Playlist 1</a>
+                <a href="">Playlist 1</a>
+            </div><!--sidebar__playlists-->
+
+            <div class="sidebar__playlists">
+                <a href="">Playlist 1</a>
+                <a href="">Playlist 1</a>
+                <a href="">Playlist 1</a>
+                <a href="">Playlist 1</a>
+                <a href="">Playlist 1</a>
+            </div><!--sidebar__playlists-->
+
+            <div class="sidebar__playlists">
+                <a href="">Playlist 1</a>
+                <a href="">Playlist 1</a>
+                <a href="">Playlist 1</a>
+                <a href="">Playlist 1</a>
+                <a href="">Playlist 1</a>
+            </div><!--sidebar__playlists-->
+       </div><!--sidebar wraper-->
+
+
+   </div><!--sidebar-->
+
+   <div class="main">
+       <div class="main-wraper">
+
+           <div class="main__row">
+               <div class="main__row__title"><h2>Paradas</h2></div>
+
+               <div class="main__col">
+                   <img src="img/rock.png" />
+                   <h3>Rock</h3>
+                   <p>De Tainá Pepper</p>
+               </div><!--main__col-->
+
+               <div class="main__col">
+                <img src="img/rbd.png" />
+                <h3>Rebelde</h3>
+                <p>De Tainá Pepper</p>
+            </div><!--main__col-->
+
+            <div class="main__col">
+                <img src="img/glee.png" />
+                <h3>Glee</h3>
+                <p>De Tainá Pepper</p>
+            </div><!--main__col-->
+
+            <div class="main__col">
+                <img src="img/baladas.png" />
+                <h3>Baladas</h3>
+                <p>De Tainá Pepper</p>
+            </div><!--main__col-->
+
+            <div class="main__col">
+                <img src="img/latinas.png" />
+                <h3>Latinas</h3>
+                <p>De Tainá Pepper</p>
+            </div><!--main__col-->
+
+            <div class="main__col">
+                <img src="img/doja.png" />
+                <h3>Doja Cat</h3>
+                <p>De Tainá Pepper</p>
+            </div><!--main__col-->
+
+            <div class="main__col">
+                <img src="img/espanhol.png" />
+                <h3>Walk'n'talk espanhol</h3>
+                <p>De Tainá Pepper</p>
+            </div><!--main__col-->
+
+            <div class="main__col">
+                <img src="img/musicais.png" />
+                <h3>Musicais</h3>
+                <p>De Tainá Pepper</p>
+            </div><!--main__col-->
+
+            <div class="main__col">
+                <img src="img/50 global.png" />
+                <h3>As 50 mais tocadas</h3>
+                <p>Aqui vai a descrição da minha múisca...</p>
+            </div><!--main__col-->
+
+            <div class="main__col">
+                <img src="img/50 brasil.png" />
+                <h3>As 50 mais tocadas</h3>
+                <p>Aqui vai a descrição da minha múisca...</p>
+            </div><!--main__col-->
+
+           </div><!--main__row-->
+
+           <div class="main__row__sel">
+               <div class="main__row__title"><h2>Minhas Músicas</h2></div>
+
+
+               <div class="main__col__sel" data-image="img/Si una vez.png" data-artist="Selena Quintanilla" data-song="Si una vez" data-file="assets/music.mp3">
+                <img src="img/Si una vez.png" />
+                <h3>Selena</h3>
+                <p>Si una vez</p>
+            </div><!--main__col-->
+
+            <div class="main__col__sel"> 
+                <img src="img/Selena.png" />
+                <h3>Selena Quintanilla</h3>
+                <p>De Tainá Pepper</p>
+            </div><!--main__col-->
+
+               </div><!--main__col-->
+
+       </div><!--main-wraper-->
+   </div>
+
+   <div class="player">
+       <div class="player__artist">
+
+       </div>
+       <div class="player__control">
+           <div class="player__control__buttons">
+               <a href=""><i class="fas fa-backward"></i></a>
+               <a style="display: none;"id="pauseBtn" href="#"><i class="far fa-pause-circle"></i></a>
+               <a id="playBtn" href="#"><i class="far fa-play-circle"></i></a>
+               <a href=""><i class="fas fa-forward"></i></a>
+           </div>
+
+           <div class="player__control__progress">
+               <div style="width:0%;"class="player__control__progress_2"></div>
+
+           </div>
+
+       </div>
+
+   </div><!--player-->
+
+   <audio id="audioplayer" style="position: absolute;left: 0;top: 0;z-index: -999;opacity: 0;"  controls="">
+   </audio>
+
+
+   <script src="js/all.min.js"></script> 
+
+   <script>
+
+     var audioPlayer = document.getElementById('audioplayer');
+     var loaded = false;
+
+     var playBtn = document.getElementById('playBtn');
+     var pauseBtn = document.getElementById('pauseBtn');
+
+
+    pauseBtn.addEventListener('click',(e)=>{
+         e.preventDefault();
+
+         playBtn.style.display = "inline";
+         pauseBtn;style.display = "none";
+
+         return false;
+     });
+
+     const playSong = (file) => {
+
+        if(loaded == false){
+            audioPlayer.innerHTML = `<source src="`+file+`" type="audio/mp3"  />`;
+            loaded = true;
+        }
+
+        audioPlayer.play();
+
+
+        playBtn.style.display="none";
+
+        pauseBtn.style.display="inline";
+
+     }
+
+     document.querySelectorAll('.main__col').forEach(item =>{
+         item.addEventListener('click',event=>{
+             let image = item.getAttribute('data-image');
+             let artist = item.getAttribute('data-artist');
+             let song = item.getAttribute('data-song');
+             let file = item.getAttribute('data-file');
+
+             let playerArtist = document.getElementsByClassName('player__artist');
+             playerArtistComponent[0].innerHTML = `
+                    <img src="`+image+`" />
+                    <h3>`+artist+`<br/><span>`+song+`</span></h3>
+
+
+             `;
+             playSong(file);
+
+         })
+
+     });
+        
+//
+
+   </script>
+</body>
+</html>
